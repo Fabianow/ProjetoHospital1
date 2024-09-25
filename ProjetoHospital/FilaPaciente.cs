@@ -61,23 +61,6 @@ namespace ProjetoHospital
                 Console.WriteLine("Não tem pacientes");
             }
         }
-
-        private void OrdenarPorPrioridade()
-        {
-            
-            for (int i = 0; i < contador - 1; i++)
-            {
-                for (int j = 0; j < contador - i - 1; j++)
-                {
-                
-                    if (fila[j].prioridade.prioridade > fila[j + 1].prioridade.prioridade)
-                    {
-                        Cadastro temp = fila[j];
-                        fila[j] = fila[j + 1];
-                        fila[j + 1] = temp;
-                    }
-                }
-            }
-        }
     }
+    
 }
