@@ -26,7 +26,7 @@ namespace ProjetoHospital
             {
                 fila[contador] = paciente;
                 contador++;
-                OrdenarPorPrioridade(); // Chama a função para ordenar após inserir
+        
             }
             else
             {

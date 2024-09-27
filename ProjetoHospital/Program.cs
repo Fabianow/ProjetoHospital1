@@ -10,7 +10,7 @@ namespace ProjetoHospital
     {
         static void Main(string[] args)
         {
-
+            //teste
             FilaPaciente fila = new FilaPaciente();
             fila.vetor(10);
             string opcao = "";
@@ -33,6 +33,7 @@ namespace ProjetoHospital
                         Cadastro novoPaciente = new Cadastro();
                         novoPaciente.cadastro();
                         fila.InserirPaciente(novoPaciente);
+                        
                         Console.ReadKey();
                         break;
                     case "2":
